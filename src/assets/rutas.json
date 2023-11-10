@@ -1,0 +1,44 @@
+[
+    {
+      "key": "1",
+      "to": "/",
+      "name": "Inicio"
+    },
+    {
+      "key": "2",
+      "to": "/sobremi",
+      "name": "Sobre Mi"
+    },
+    {
+      "key": "3",
+      "to": "/conferencias",
+      "name": "Conferencias"
+    },
+    {
+      "key": "4",
+      "to": "/club-de-la-salud",
+      "name": "Club de la Salud"
+    },
+    {
+      "key": "5",
+      "to": "/terapias",
+      "name": "Terapias"
+    },    
+    {
+      "key": "6",
+      "to": "/galeria",
+      "name": "Galería"
+    },
+
+    {
+      "key": "7",
+      "to": "/testimonios",
+      "name": "Testimonios"
+    },
+    
+    {
+      "key": "8",
+      "to": "/contacto",
+      "name": "Contacto"
+    }
+]

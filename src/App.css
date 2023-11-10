@@ -1,38 +1,166 @@
-.App {
+.btn-custom {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(203, 108, 230);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: rgb(123, 0, 157);
+}
+
+.btn-white {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: rgb(104, 34, 128);
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-white:hover {
+  background-color: rgb(241, 190, 255);
+}
+
+.social-buttons {
+  position: fixed;
+  top: 55%; /* Alineación vertical al centro */
+  right: 0px; /* Margen derecho */
+  transform: translateY(-45%); /* Alineación vertical al centro */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Separación entre botones */
+}
+
+.btn-facebook {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: -45px;
+}
+
+.btn-facebook:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+  margin-right: 0;
+}
+
+.btn-youtube {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: -45px;
+}
+
+.btn-youtube:hover {
+  background-color: rgb(217, 27, 27);
+  margin-right: 0;
+}
+
+.btn-instagram {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(203, 108, 230);
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: -45px;
+}
+.btn-instagram:hover {
+  background-color: rgb(123, 0, 157);
+  margin-right: 0;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(37, 211, 102); /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: -45px;
+}
+
+.btn-whatsapp:hover {
+  background-color: rgb(33, 153, 77);
+  margin-right: 0;
+}
+
+.btn-phone {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: gray; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: -45px;
+}
+
+.btn-phone:hover {
+  background-color: rgb(31, 31, 31);
+  margin-right: 0;
+}
+
+.titulo-uno {
+  color: rgb(56, 182, 255);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titulo-dos {
+  color: rgb(203, 108, 230);
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titulo-tres {
+  color: rgb(104, 34, 128);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.titulo-cuatro {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.link-whatsapp {
+  text-decoration: none;
+  color: gray;
+  transition: color 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-whatsapp:hover {
+  color: black;
+}
+
+.link-whatsapp-white {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.link-whatsapp-white:hover {
+  color: rgb(174, 150, 182);
 }

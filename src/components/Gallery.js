@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Imagen from "./Imagen";
-import Video from "./Video";
 
 import img1 from "../images/img_1.jpg";
 import img2 from "../images/img_2.jpg";
@@ -24,33 +23,6 @@ import img22 from "../images/img_22.jpg";
 import img23 from "../images/img_23.jpg";
 
 function Gallery() {
-  const videosExternos = [
-    {
-      key: 1,
-      src: "https://www.youtube.com/embed/AW2KavRcGl4?si=5AAMnVARqQoGXrMi",
-    },
-    {
-      key: 2,
-      src: "https://www.youtube.com/embed/1yyPLew_FFY?si=UxvSnW6bS3lrzxxq",
-    },
-    {
-      key: 3,
-      src: "https://www.youtube.com/embed/KLIx4OEtzp0?si=I6vF1HP7G4tI8p12",
-    },
-    {
-      key: 4,
-      src: "https://www.youtube.com/embed/SXIyuaGpuVQ?si=1oPQ3G5u56RPb6ts",
-    },
-    {
-      key: 5,
-      src: "https://www.youtube.com/embed/wcWLA9K069I?si=ecIgP1MqU0x3iUiD",
-    },
-    {
-      key: 6,
-      src: "https://www.youtube.com/embed/1RWJR0tFu7Y?si=fjIsg9fZ4yjsOlUs",
-    },
-  ];
-
   const imagenes1 = [
     { src: img1 },
     { src: img2 },
@@ -88,12 +60,6 @@ function Gallery() {
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {imagenes1.map((img) => (
           <Imagen key={img.src} src={img.src} />
-        ))}
-      </div>
-      <br></br>
-      <div className="row row-cols-1 row-cols-md-2 g-4">
-        {videosExternos.map((video) => (
-          <Video key={video.key} src={video.src} />
         ))}
       </div>
       <br></br>
